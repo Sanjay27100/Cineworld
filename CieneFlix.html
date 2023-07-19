@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CieneFlix</title>
+<style>
+body{
+height: 2500px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* background-image: url(Mall\ 22.jpg); */
+background: url(Mall\ 21.jpg);
+background-size: cover;
+}
+
+.left{
+display: inline-block;
+position: absolute;
+left: 20px;
+top: 34px;
+}
+
+.left img{
+height: 60px;
+width: 250px;
+}
+
+.left div{
+font-size: 23px;
+color: teal;
+text-align: center;
+background-color: rgb(238, 224, 206);
+}
+
+.mid{
+font-size: 80px;
+color: whitesmoke;
+/* background-color: lavender; */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 6px solid white;
+text-align: center;
+margin:  34px auto;
+width: 35%;
+border-radius: 25px;
+}
+.container{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 26px;
+top: 200px;
+}
+.container div{
+color: violet;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container img{
+height: 230px;
+width: 250px;
+}
+.container button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+.container4{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 320px;
+top: 200px;
+}
+.container4 div{
+color: black;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container4 img{
+height: 230px;
+width: 250px;
+}
+.container4 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+.container5{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 610px;
+top: 200px;
+}
+.container5 div{
+color: crimson;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container5 img{
+height: 230px;
+width: 250px;
+}
+.container5 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+.container6{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 900px;
+top: 200px;
+}
+.container6 div{
+color: darkcyan;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container6 img{
+height: 230px;
+width: 250px;
+}
+.container6 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+
+.container7{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 1200px;
+top: 200px;
+}
+.container7 div{
+color: darkcyan;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container7 img{
+height: 230px;
+width: 250px;
+}
+.container7 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+
+
+
+
+
+.container2{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 26px;
+top: 560px;
+}
+.container2 div{
+color: darkslategray;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container2 img{
+height: 230px;
+width: 250px;
+}
+.container2 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+
+.container3{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 320px;
+top: 560px;
+}
+.container3 div{
+color: rgb(26, 101, 241);
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container3 img{
+height: 230px;
+width: 250px;
+}
+.container3 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+
+.container8{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 610px;
+top: 560px;
+}
+.container8 div{
+color: deepskyblue;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container8 img{
+height: 230px;
+width: 250px;
+}
+.container8 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+.container9{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 900px;
+top: 560px;
+}
+.container9 div{
+color: darkslategray;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container9 img{
+height: 230px;
+width: 250px;
+}
+.container9 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+.container10{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 1200px;
+top: 560px;
+} 
+.container10 div{
+color: midnightblue;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container10 img{
+height: 230px;
+width: 250px;
+}
+.container10 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+.container11{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 26px;
+top: 920px;
+}
+.container11 div{
+color: darkturquoise;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container11 img{
+height: 230px;
+width: 250px;
+}
+.container11 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+.container12{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 320px;
+top: 920px;
+}
+.container12 div{
+color: dodgerblue;
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container12 img{
+height: 230px;
+width: 250px;
+}
+.container12 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+
+.container13{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 610px;
+top: 920px;
+}
+.container13 div{
+color: rgb(26, 101, 241);
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container13 img{
+height: 230px;
+width: 250px;
+}
+.container13 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+
+.container14{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 900px;
+top: 920px;
+}
+.container14 div{
+color: rgb(26, 101, 241);
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container14 img{
+height: 230px;
+width: 250px;
+}
+.container14 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+.container15{
+border: solid salmon;
+height: 330px;
+width: 250px;
+position: absolute;
+left: 1200px;
+top: 920px;
+}
+.container15 div{
+color: rgb(248, 44, 44);
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: lavender;
+}
+.container15 img{
+height: 230px;
+width: 250px;
+}
+.container15 button{
+border: solid blueviolet;
+width: 250px;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: azure;
+}
+
+footer{
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 9px 20px;
+  position: absolute;
+  top: 2520px;
+    }
+
+    .center{
+    text-align: center;
+    }
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="mid">
+CieneFlix
+</div>
+
+<div class="left">
+<img src="Mall3.jpg" alt="">
+<div>The CineWorld Multiplex</div>
+</div>
+
+
+<div class="container">
+<div>Adipurush</div>
+<img src="ADI.jpg" alt="">
+<button class="btn"><a href="ADI.html">View Preview</a></button>
+<button class="btn"><a href="">Select</a></button>
+</div>
+
+<div class="container2">
+    <div>Vikram</div>
+    <img src="Vikram.jpg" alt="">
+    <button class="btn"><a href="Vikram.html">View Preview</a></button>
+    <button class="btn"><a href="">Select</a></button>
+
+    </div>
+
+    <div class="container3">
+        <div>Pushpa-The Rise</div>
+        <img src="Pushpa.jpg" alt="">
+        <button class="btn"><a href="Pushpa1.html">View Preview</a></button>
+        <button class="btn"><a href="">Select</a></button>
+
+        </div>
+         
+        <div class="container4">
+        <div>M I 7</div>
+        <img src="MI 7.jpg" alt="">
+        <button class="btn"><a href="MI 7.html">View Preview</a></button>
+        <button class="btn"><a href="">Select</a></button>
+
+         </div>
+    
+         <div class="container5">
+            <div>RRR</div>
+            <img src="RRR.jpg" alt="">
+            <button class="btn"><a href="RRR.html">View Preview</a></button>
+            <button class="btn"><a href="">Select</a></button>
+
+             </div>
+      
+             <div class="container6">
+                <div>Pathaan</div>
+                <img src="Pathaan.jpg" alt="">
+                <button class="btn"><a href="Pathaan.html">View Preview</a></button>
+                <button class="btn"><a href="">Select</a></button>
+
+                 </div>
+    
+            <div class="container7">
+                    <div>KGF Chapter 2</div>
+                    <img src="KGF 2.jpg" alt="">
+                    <button class="btn"><a href="KGF 2.html">View Preview</a></button>
+                    <button class="btn"><a href="">Select</a></button>
+                     </div>
+    
+            <div class="container8">
+            <div>SpiderMan: 3</div>
+            <img src="Spiderman3.jpg" alt="">
+            <button class="btn"><a href="Spiderman3.html">View Preview</a></button>
+            <button class="btn"><a href="">Select</a></button>
+
+            </div>
+    
+            <div class="container9">
+                <div>EndGame</div>
+                <img src="EndGame.jpg" alt="">
+                <button class="btn"><a href="EndGame.html">View Preview</a></button>
+                <button class="btn"><a href="">Select</a></button>
+
+                </div>
+
+                <div class="container10">
+                    <div>G.o.Wasseypur</div>
+                    <img src="GOW.jpg" alt="">
+                    <button class="btn"><a href="GOW.html">View Preview</a></button>
+                    <button class="btn"><a href="">Select</a></button>
+
+                    </div>
+    
+                    <div class="container11">
+                        <div>Ghajini</div>
+                        <img src="Ghajini.jpg" alt="">
+                        <button class="btn"><a href="Ghajini.html">View Preview</a></button>
+                        <button class="btn"><a href="">Select</a></button>
+
+                        </div>
+        
+                        <div class="container12">
+                            <div>Rabne Banadi Jodi</div>
+                            <img src="Rab.jpg" alt="">
+                            <button class="btn"><a href="Rab.html">View Preview</a></button>
+                            <button class="btn"><a href="">Select</a></button>
+
+                            </div>
+    
+                            <div class="container13">
+                                <div>Gadar</div>
+                                <img src="Gadar.jpg" alt="">
+                                <button class="btn"><a href="Gadar.html">View Preview</a></button>
+                                <button class="btn"><a href="">Select</a></button>
+
+                                </div>
+     
+                                <div class="container14">
+                                    <div>DDLJ</div>
+                                    <img src="DDLJ.jpg" alt="">
+                                    <button class="btn"><a href="DDLJ.html">View Preview</a></button>
+                                    <button class="btn"><a href="">Select</a></button>
+
+                                    </div>
+
+                                    <div class="container15">
+                                        <div>Sholay</div>
+                                        <img src="Sholay.jpg" alt="">
+                                        <button class="btn"><a href="Sholay.html">View Preview</a></button>
+                                        <button class="btn"><a href="">Select</a></button>
+
+                                        </div>
+    
+                                        <footer>
+                                            <div class="center"> 
+                                                Copyright &copy; www.CineworldMultiplex.com. All rights reserved!
+                                            </div>
+                                            </footer>
+                                        
+</body>
+</html>

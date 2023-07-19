@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cienema & Club</title>
+<style>
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-image: url(Mall10.jpg);
+background-size: cover;
+height: 1000px;
+}
+.left{
+display: inline-block;
+position: absolute;
+left: 20px;
+top: 34px;
+}
+.left img{
+width: 250px;
+height: 60px;
+}
+.left div{
+text-align: center;
+color: teal;
+background-color: rgb(238, 224, 206);
+font-size: 23px;
+}
+.left2{
+display: inline-block;
+position: absolute;
+left: 120px;
+top: 220px;
+}
+
+.left2 div{
+text-align: center;
+color: hotpink;
+font-size: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+.mid{
+display: inline-block;
+position: absolute;
+top: 34px;
+padding: 0px 0px 15px 0px ;
+height: 70px;
+left:560px;
+width: 450px;
+text-align: center;
+border: solid deeppink;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 75px;
+color: rgb(10, 245, 245);
+border-radius: 10px;
+}
+.container{
+border: solid darkcyan;
+height: 750px;
+width: 400px;
+margin: 300px 20px;
+border-radius: 10px;
+}
+.container h1{
+text-align: center;
+color: coral;
+}
+
+.form-group input{
+border: solid salmon;
+background-color: rgb(225, 245, 205);
+display: block;
+margin: 15px 20px;
+padding: 4px 5px;
+text-align: center;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 350px;
+border-radius: 10px;
+color: black;
+}
+
+.container button{
+border: solid blueviolet;
+width: 350px;
+display: block;
+text-align: center;
+color: black;
+background-color: aqua;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 10px;
+background-color: cadetblue;
+margin: 15px 20px;
+padding: 4px 5px;
+}
+
+.right{
+display: inline-block;
+position: absolute;
+right: 120px;
+top: 220px;
+}
+
+.right div{
+text-align: center;
+color: hotpink;
+font-size: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.container2{
+border: solid darkcyan;
+height: 800px;
+width: 400px;
+border-radius: 10px;
+position: absolute;
+right: 20px;
+top: 300px;
+}
+.container2 h1{
+text-align: center;
+color: coral;
+}
+
+
+.container2 button{
+border: solid blueviolet;
+width: 350px;
+display: block;
+text-align: center;
+color: black;
+background-color: aqua;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 10px;
+background-color: cadetblue;
+margin: 15px 20px;
+padding: 4px 5px;
+}
+
+.form-group2 input{
+border: solid salmon;
+background-color: rgb(225, 245, 205);
+display: block;
+margin: 15px 20px;
+padding: 4px 5px;
+text-align: center;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 350px;
+border-radius: 10px;
+color: black;
+}
+
+.but{
+    width: 350px;
+    height: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 5px whitesmoke;
+    font-size: 23px;
+    background-color: rgb(187, 161, 240);
+    border-radius: 20px;
+    position: absolute;
+    top: 1100px;
+    right: 550px;
+    text-decoration: none;
+    }
+    .but a{
+    color: teal;
+    font-size: 35px;
+    }
+
+    .but a:hover, .but a.active{
+    color: rgb(239, 212, 59);
+    }
+    
+    footer{
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 9px 20px;
+  position: absolute;
+  top: 1280px;
+    }
+
+    .center{
+    text-align: center;
+    }
+
+
+
+
+</style>
+</head>
+<body>
+<div class="left">
+<img src="Mall3.jpg" alt="">
+<div>The CineWorld Multiplex</div>
+</div>
+<div class="mid">
+<div>CinePolis</div>
+</div>  
+
+<button class="but"><a href="Theatre.html"target="_blank"> CinePolis Theatres</a></button>
+
+ 
+<div class="left2">
+<div>CineWood</div>
+</div>
+<div class="container">
+<h1>Book Your Show</h1>
+<form action="noaction.php">
+<div class="form-group">
+<input type="text" name="" placeholder="Enter Your Name">
+<input type="email" name="" placeholder="Enter Your Email Id">
+<input type="text" name="" placeholder="Enter Your Contact No.">
+<input type="number" name="" placeholder="Enter The No. of Shows">
+<input type="text" name="" placeholder="Do You Want Interval Lunch?">
+<input type="number" name="" placeholder="Enter The No. of Shows">
+<input type="date" name="" placeholder="Enter Date Of The Show">
+<input type="time" name="" placeholder="Enter  The Entry Time ">
+<input type="time" name="" placeholder="Enter The Exit Time">
+<input type="number" name="" placeholder="Enter The No. Of Seats">
+<button class="btn"><a href="CieneFlix.html" target="_blank">Select Your Show</a></button>
+<input type="button"onclick="alert('Your Response Have Been Submitted')" value="Submit">
+<input type="button"onclick="alert('Your Response Have Been Reseted')" value="Reset">
+
+
+<div class="right">
+    <div>CineClub</div>
+    </div>
+    <div class="container2">
+    <h1>Register for Silent Disco</h1>
+    <form action="noaction.php">
+    <div class="form-group2">
+    <input type="text" name="" placeholder="Enter Your Name">
+    <input type="email" name="" placeholder="Enter Your Email Id">
+    <input type="text" name="" placeholder="Enter Your Contact No.">
+    <input type="number" name="" placeholder="Enter The No. of HeadPhones">
+    <input type="date" name="" placeholder="Enter Date Of The Show">
+    <input type="time" name="" placeholder="Enter  The Entry Time ">
+    <input type="time" name="" placeholder="Enter The Exit Time">
+    <input type="number" name="" placeholder="Enter The No. Of Transmitter">
+    <input type="text" name="" placeholder="Switch To DJ'S Channel?">
+    <input type="number" name="" placeholder="Enter DJ'S Channel No.">
+    <input type="text" name="" placeholder="Switch To Avilable Channel?">
+
+    <button class="btn"><a href="Music.html" target="_blank">Select Your Music</a></button>
+    <input type="button"onclick="alert('Your Response Have Been Submitted')" value="Submit">
+    <input type="button"onclick="alert('Your Response Have Been Reseted')" value="Reset">
+    
+    
+    
+</div>
+</form>
+</div>
+
+
+<footer>
+    <div class="center"> 
+        Copyright &copy; www.CineworldMultiplex.com. All rights reserved!
+    </div>
+    </footer>
+
+</body>
+</html>
+
+

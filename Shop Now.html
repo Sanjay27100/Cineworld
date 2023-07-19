@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop In CineWorld</title>
+    <style>
+   body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(Mall11.jpg);
+    background-size: cover;
+    height: 1250px;
+    background-repeat: no-repeat;
+   }
+
+    .left{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top:34px;
+    font-size: 23px;
+    }
+    .left img{
+    width: 250px;
+    height: 60px;
+    }
+    .left div{
+    text-align: center;
+    background-color: rgb(238, 224, 206);
+    color: teal;
+    }
+    .mid{
+    margin: 34px auto;
+    width: 400px;
+    text-align: center;
+    /* background-color: lavender; */
+    font-size: 60px;
+    border-radius: 10px;
+    color: lavender;
+    border: solid lavender;
+    }
+    .container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: aliceblue; 
+    border: rgb(78, 78, 246);
+    text-align: center;     
+    }
+    .container li {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    }
+    .container{
+    border:  solid lavender;
+    height: 1050px;
+    width: 400px;
+    margin:  80px auto;
+    border-radius: 10px;
+    }
+    .form-group input{
+    border: solid 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+    display: block;
+    font-size: 20px;
+    margin: 15px 20px;
+    padding: 4px 5px;
+    text-align: center;
+    width: 350px;
+    border-radius: 10px;
+    color: black;
+    }
+    /* .form-group input  button{  
+    border: solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 350px;
+    display: block;
+    font-size: 20px;
+    margin: 20px 20px;
+    padding: 6px 7px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.853);
+    background-color: rgb(167, 192, 238);
+    } */
+    
+    .btn{
+    position: absolute;
+    right: 20px;
+    top: 34px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    width: 250px;
+    height: 70px;
+    background-color: black;
+    border: solid white 5px;
+    }
+    .btn a{
+    color: whitesmoke;
+    }
+
+    .btn a:hover, .btn a.active{
+    color: aqua;
+    }
+
+    footer{
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 9px 0px;
+  position: absolute;
+  top: 1260px;
+    }
+
+    .center{
+    text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="left">
+    <img src="Mall3.jpg" alt="">
+    <div>The CineWorld Multiplex</div>  
+    </div>
+
+    <div class="mid">
+    <div>Shop Now!</div>
+    </div>
+
+    <div class="container">
+    <h1>Enter Details & Buy!</h1>
+    <form action="noaction.php">
+    <div class="form-group">
+    <input type="text" name="" placeholder="Enter Your Name">   
+    <input type="text" name="" placeholder="Enter Your Address">
+    <input type="text" name="" placeholder="Enter Your Gender">
+    
+    <input type="text" name="" placeholder="Enter Your Contact No.">
+    <input type="datetime-local" name="" placeholder="Enter date of shopping">
+
+    
+    <input type="text" name="" placeholder="Enter Your Aadhaar No.">
+    <input type="email" name="" placeholder="Enter Your Email Id">
+    <input type="number" name="" placeholder="No.of cell you carry(security purpose) ">
+    <input type="date" name="" placeholder="Enter Your Date of Birth">
+    <input type="text" name="" placeholder="Enter the stuff you will buy">
+    <input type="number" name="" placeholder="No.of goods you will buy? ">
+    <input type="text" name="" placeholder="Enter the good's category">
+    <ul>
+    <li>
+    Good's category you want to buy?
+    Household <input type="radio" name="h" id="">  Non Household <input type="radio" name="h" id="">
+    </li> 
+    </ul> 
+
+    <!-- <button class="btn"> -->
+        <input type="button"onclick="alert('Your Response Have Been Submitted')" value="Submit">
+        <input type="button"onclick="alert('Your Response Have Been Reset')" value="Reset">
+    
+    <!-- </button> -->
+    <!-- <button class="btn">Submit</button>  -->
+    <!-- <button class="btn">Reset</button> -->
+    </div>
+    </form>
+    </div>
+    
+
+    <button class="btn"><a href="tour.html"target="_blank">Take a Tour</a></button>
+
+    <footer>
+        <div class="center"> 
+            Copyright &copy; www.CineworldMultiplex.com. All rights reserved!
+        </div>
+        </footer>
+    
+</body>
+</html>
